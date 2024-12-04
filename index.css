@@ -346,3 +346,7 @@ position: fixed;
   50% { border-color: limegreen; }
 
 }
+.man:hover {
+	transform: rotate(360deg);
+	transition-duration: 1000ms;
+}
