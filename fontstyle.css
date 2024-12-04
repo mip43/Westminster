@@ -31,7 +31,7 @@ p1 {
 
 @font-face {
     font-family: 'westminster';
-    src:  url('font 1/westminster/westminster.woff') format('woff');
+    src:  url('westminster.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -50,6 +50,10 @@ width: 500px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 0en;
 	
+}
+
+.man:hover {
+	transform: rotate(360deg);
+	transition-duration: 1000ms;
 }
